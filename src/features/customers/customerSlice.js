@@ -27,7 +27,7 @@ const customerSlice = createSlice({
       },
     },
     updateName(state, action) {
-      state.fullName = action.ppayload;
+      state.fullName = action.payload;
     },
   },
 });
